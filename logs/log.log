@@ -126,3 +126,7 @@
 2023-05-25 20:27:58,438--> INFO: --> Request_Tools.py: 12 -->请求加载进来了request_mode:<post>  url:<http://47.100.92.21:8080/colatest/colamember/login.do>  headers:<None>  json:<{'accountPWD': '', 'phoneNumber': '13333333333'}>  data:<None
 2023-05-25 20:29:13,992--> INFO: --> test_login.py: 43 -->开始调用登录接口,执行4--手机号和密码不能为空用例
 2023-05-25 20:29:13,993--> INFO: --> Request_Tools.py: 12 -->请求加载进来了request_mode:<post>  url:<http://47.100.92.21:8080/colatest/colamember/login.do>  headers:<None>  json:<{'accountPWD': '222222', 'phoneNumber': ''}>  data:<None
+2023-05-25 20:30:29,625--> INFO: --> test_login.py: 43 -->开始调用登录接口,执行5--手机号格式不正确,请重新填写手机号用例
+2023-05-25 20:30:29,625--> INFO: --> Request_Tools.py: 12 -->请求加载进来了request_mode:<post>  url:<http://47.100.92.21:8080/colatest/colamember/login.do>  headers:<None>  json:<{'accountPWD': '222222', 'phoneNumber': '13333333'}>  data:<None
+2023-05-25 20:31:45,158--> INFO: --> test_login.py: 43 -->开始调用登录接口,执行6--手机号格式不正确,请重新填写手机号用例
+2023-05-25 20:31:45,158--> INFO: --> Request_Tools.py: 12 -->请求加载进来了request_mode:<post>  url:<http://47.100.92.21:8080/colatest/colamember/login.do>  headers:<None>  json:<{'accountPWD': '222222', 'phoneNumber': '133333@3'}>  data:<None
