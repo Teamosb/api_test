@@ -1,0 +1,6 @@
+[32mINFO    [0m my_log:test_login.py:43 开始调用登录接口,执行4--手机号和密码不能为空用例
+[32mINFO    [0m my_log:Request_Tools.py:16 请求加载进来了request_mode:<post>  url:<http://47.100.92.21:8080/colatest/colamember/login.do>  headers:<None>  json:<{'accountPWD': '222222', 'phoneNumber': ''}>  data:<None
+[32mINFO    [0m my_log:Request_Tools.py:27 请求结束了,响应信息：<{'message': '手机号或者密码不能为空!', 'status': '20002'}>
+[32mINFO    [0m my_log:test_login.py:45 调用登录接口完成,结果：{'message': '手机号或者密码不能为空!', 'status': '20002'}
+[32mINFO    [0m my_log:test_login.py:50 准备比对结果，实际结果结果《{'message': '手机号或者密码不能为空!', 'status': '20002'}》,预期结果：{'message': '手机号或者密码不能为空!', 'status': '20002'}
+[32mINFO    [0m my_log:test_login.py:52 测试用例4--手机号和密码不能为空通过
